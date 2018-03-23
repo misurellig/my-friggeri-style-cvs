@@ -1,0 +1,210 @@
+% !TEX encoding = UTF-8 Unicode
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.0 (5/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+%\addbibresource{bibliography.bib} % Specify the bibliography file to include publications
+
+\begin{document}
+
+\header{Giuseppe}{ Misurelli}{DevOps Engineer} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{Contact}
+1 Via Battibecco
+40123 Bologna
+Italy
+~
++39 33 83 49 25 19
+~
+\href{mailto:giuseppe.misurelli@gmail.com}{gmail: giuseppe.misurelli}
+\href{https://it.linkedin.com/pub/giuseppe-misurelli/2/820/537}{linkedin: Giuseppe Misurelli}
+\section{Languages}
+Italian: native
+English: full professional proficiency
+\section{Technologies}
+Linux, Windows
+KVM, oVirt
+Amazon AWS, OpenStack
+Ansible, Chef
+Terraform, Packer
+Jenkins
+Nagios, Sensu, Zabbix
+Elasticsearch, Logstash, Kibana
+Apache, HaProxy
+PostgreSQL, MySQL
+Python, Ruby
+Vagrant, Git
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%   SUMMARY SECTION
+%----------------------------------------------------------------------------------------
+% \section{Summary}
+% \textbf{} • 10+ years full-time working experience in IT operation\\
+% \textbf{} • Coordinating the local delivery team providing deployment, monitoring and log analysis as a service for product teams\\
+% \textbf{} • Design processes for node and service deployment and orchestration management\\
+% \textbf{} • Ability to deal with security information and incident response\\
+% \textbf{} • Re-use and adapt standards for the definition of policy and best practices\\
+% \textbf{} • Certification: IT Service Management Foundation based on ISO/IEC 20000 and ISO/IEC 27002\\
+% \textbf{} • Certification: OSSTMM Professional Security Tester\\
+% \textbf{} • Certification: Red Hat certified system administrator
+
+%----------------------------------------------------------------------------------------
+%   WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{Mar. 2016 - present}
+{ Yoox-Net-A-porter Group}
+{Bologna, Italy}
+{\emph{DevOps Engineer}
+\begin{itemize}
+\item {Public cloud infrastructure build and deploy using several Amazon Web Service stack (EC2, VPC, IAM) and focusing on high-availability, fault tolerance, auto-scaling}
+\item {Infrastructure as code and configuration management modules development with respectively Terraform and Ansible. Jenkins pipelines drive all the build and deployment phases of the code}
+\item {Implementation of the security layer into the Enterprise Service Bus components to ensure channel authentication, sensitive messages encryption and role-based authorizations on message queue objects}
+\item {Instrumentation of the Order Management System and Enterprise Service Bus services with ad hoc sensors for the integration into the local monitoring and alerting system}
+\item {Coordinating the local DevOps community to build and share DevOps practices and spread them into our company}
+\end{itemize}}
+%------------------------------------------------
+\end{entrylist}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2004 - 2016}
+{Italian Institute for Nuclear Physics}
+{Bologna, Italy}
+{\emph{System engineer}
+\begin{itemize}
+\item {Deliver the deployment, monitoring and log analysis service for product teams}
+\item {Build a reliable and fully automated deploy process for any cluster and on-premise environments with Foreman and Puppet}
+\item {Operate timely and reliable support: deploy, upgrade, troubleshoot}
+\item {Monitoring system with comprehensive checks and alerts}
+\item {Making sense of data logs with Elastic stack (Elasticsearch, Logstash and Kibana)}
+\item {Assessing security for operated services based on the OSSTMM methodology}
+\item {Hardening and securing critical assets in agreement with local policy and NIST/SANS guidelines}
+\item {Formalization of a framework of security policies and procedures, based on ISO27002 code of practice}
+\item {Scaling and adapting the IT infrastructure to the scientific communities requirements and the evolution of IT technologies and trends}
+\end{itemize}}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%   SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\section{Skills}
+\textbf{} • Attention to details in dealing with IT servers availability and reliability\\
+\textbf{} • Attitude at documenting and reporting both technical activities and working projects milestones/deliverables as well as using working group methodologies and tracking tools to analyse and prioritize tasks and issues\\
+\textbf{} • Experience in implementing helpdesk activity, incident response and problem solving approaches\\
+\textbf{} • Large acquaintance in the deployment, monitoring and troubleshooting of Linux systems regarding specifically business continuity, performance optimization and information security\\
+\textbf{} • Confidence with DevOps peculiarities for dealing with fast-moving environment\\
+\textbf{} • Passionate at scouting innovative technologies and tools\\
+\textbf{} • Experience at elaborating and presenting technology research contents and outcomes\\
+
+% \section{Technologies}
+% \ztable{System}{Linux, Windows}
+% \ztable{Virtualization}{KVM, oVirt}
+% \ztable{Cloud}{Amazon AWS, OpenStack}
+% \ztable{Lifecycle}{Foreman, Puppet}
+% \ztable{Monitoring}{Nagios, Sensu, Zabbix}
+% \ztable{Log management}{Elasticsearch, Logstash, Kibana}
+% \ztable{Web server and load balancing}{Apache, HAProxy}
+% \ztable{RDBMS}{PostgreSQL, MySQL}
+% \ztable{Scripting}{Pyhthon, Ruby}
+% \ztable{Best practices}{ISO/IEC 20000 and 27002, NIST/SANS}
+% \ztable{Testing and version control system}{Vagrant, Git}
+
+
+%----------------------------------------------------------------------------------------
+%   CERTIFICATION SECTION
+%----------------------------------------------------------------------------------------
+\section{Certification}
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2014}
+{IT Service Management Foundation based on ISO/IEC 20000}
+{Exin}
+{SO/IEC 20000 provides a set of requirements against which an organization can be assessed for effective service management processes}
+%------------------------------------------------
+\entry
+{2011}
+{IT Service Management Foundation based on ISO/IEC 27002}
+{Exin}
+{Implementation of ISO/IEC 27002 best practice and guidelines for vulnerability assessment, risk analysis and deployment of physical, technical and organisational measures for the information security}
+%------------------------------------------------
+\entry
+{2010}
+{OSSTMM Professional Security Tester}
+{ISECOM}
+{The Open Source Security Testing Methodology Manual (OSSTMM) professional security tester is a best practice certification designed to improve methodologies carrying out security tests to assess vulnerability into IT infrastructures}
+%------------------------------------------------
+\entry
+{2009}
+{Red Hat certified system administrator}
+{Red Hat inc.}
+{The Red Hat Certified system administrator aims at certifying the skills on Linux system administration concerning the Red Hat Enterprise Linux (RHEL) operating system}
+%------------------------------------------------
+\end{entrylist}
+
+
+%----------------------------------------------------------------------------------------
+%   EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\section{Education}
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2003}
+{Master {\normalfont of Internet Engineering}}
+{University of Florence}
+{The master covered the main principles on design, project and management of local and wide area networks, Internet based services and web applications}
+%------------------------------------------------
+\entry
+{2002}
+{Degree {\normalfont of Astronomy}}
+{University of Bologna}
+{Knowledge of the main principles of astronomy, mathematics, physics and computing science for the scientific and technological research}
+%------------------------------------------------
+\end{entrylist}
+
+
+%----------------------------------------------------------------------------------------
+%   INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\textbf{professional:} IT management, devops weekly news, node lifecycle management, monitoring, information security\\
+\textbf{personal:} cooking and making the traditional bolognese pasta down, cycling, contemporary art, joining music and arts festivals
+
+
+\end{document}
